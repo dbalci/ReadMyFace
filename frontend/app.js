@@ -27,6 +27,9 @@ start.onclick = function(){
         time += 0.1;
         timer.innerText = time.toFixed(1) + 's';
     },100)
+    flip()
 }
 
-
+function flip() {
+    $(".image-box").toggleClass("flipped");
+}

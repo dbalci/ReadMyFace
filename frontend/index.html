@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ReadMyFace</title>
     <link rel="stylesheet" href="app.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.1.3/pixi.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+
 </head>
 <body>
 <div id='container'>
@@ -16,18 +17,41 @@
         <button id='start'>Start</button>
     </div>
     <div id='grid-container'> 
-        <div id='box1' class='image-box'>🙄</div>
-        <div id='box2' class='image-box'>😊</div>
-        <div id='box3' class='image-box'>😑</div>
-        <div id='box4' class='image-box'>🥺</div>
-        <div id='box5' class='image-box'>😊</div>
-        <div id='box6' class='image-box'>🙃</div>
-        <div id='box7' class='image-box'>😎</div>
-        <div id='box8' class='image-box'>😉</div>
-        <div id='box9' class='image-box'>🤔</div>
+        <div id='box1' class='image-box'>
+            <div class="front">🙄</div>
+            <div class="back"></div>
+        </div>
+        <div id='box2' class='image-box'>
+            <div class="front">😊</div>
+            <div class="back"></div>
+        </div>
+        <div id='box3' class='image-box'>
+            <div class="front">😑</div>
+            <div class="back"></div>
+        </div>
+        <div id='box4' class='image-box'>
+             <div class="front">🥺</div>
+            <div class="back"></div></div>
+        <div id='box5' class='image-box'>
+             <div class="front">😊</div>
+            <div class="back"></div></div>
+        <div id='box6' class='image-box'>
+             <div class="front">🙃</div>
+            <div class="back"></div></div>
+        <div id='box7' class='image-box'>
+             <div class="front">😎</div>
+            <div class="back"></div></div>
+        <div id='box8' class='image-box'>
+             <div class="front">😉</div>
+            <div class="back"></div></div>
+        <div id='box9' class='image-box'>
+             <div class="front">🤔</div>
+            <div class="back"></div>
+        </div>
     </div>
 
 </div>
 <script src="app.js"></script>
 </body>
 </html>
+

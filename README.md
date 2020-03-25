@@ -2,7 +2,7 @@
 Micro expression catcher app
 
 
-**Live Project**
+<!-- **Live Project**
 Includes links to your Portfolio, Github and LinkedIn.
     Landing page/modal with obvious, clear instructions.
     Interactivity of some kind.
@@ -16,9 +16,9 @@ Instructions on how to play/use the project.
     Technical implementation details with code snippets (make sure it looks good).
     To-dos/future features.
     No .DS_Stores / debuggers / console.logs.
-    Organize into /assets and /lib.
+    Organize into /assets and /lib. -->
 
-    
+
 
 ##Instructions on how to play/use the project
     this is a micro expression game

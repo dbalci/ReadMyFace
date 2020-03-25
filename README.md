@@ -20,13 +20,13 @@ Instructions on how to play/use the project.
 
 
 
-##Instructions on how to play/use the project
-    this is a micro expression game
-    on the top there is going to be an emotion
-    cards going to turn for a brief second and close back
-    you are going to select which cards have the emotion we are looking for
-    there is no time limitation 
-    but be careful if you wait too much you point at the end will be low
+## Instructions on how to play/use the project
+    - this is a micro expression game
+    - on the top there is going to be an emotion
+    - cards going to turn for a brief second and close back
+    - you are going to select which cards have the emotion we are looking for
+    - there is no time limitation 
+    - but be careful if you wait too much you point at the end will be low
 
 
     there is 3 levels 

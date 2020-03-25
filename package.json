@@ -1,0 +1,25 @@
+{
+  "name": "readmyface",
+  "version": "1.0.0",
+  "description": "micro expression reading app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js",
+    "server:debug": "nodemon --inspect server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbalci/ReadMyFace.git"
+  },
+  "author": "Dilan Balci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbalci/ReadMyFace/issues"
+  },
+  "homepage": "https://github.com/dbalci/ReadMyFace#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

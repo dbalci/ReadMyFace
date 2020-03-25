@@ -1,0 +1,35 @@
+.bar{
+    width: 500px;
+    height: 30px;
+    background-color: rgb(67, 157, 231);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#timer{
+    display: contents;
+}
+#start{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(194, 41, 41);
+    border-radius: 11px;
+    color: rgba(243, 240, 240, 0.945);
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+.image-box{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}

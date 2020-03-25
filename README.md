@@ -3,7 +3,6 @@ Micro expression catcher app
 
 
 <!-- **Live Project**
-Includes links to your Portfolio, Github and LinkedIn.
     Landing page/modal with obvious, clear instructions.
     Interactivity of some kind.
     Well styled, clean frontend.
@@ -11,7 +10,6 @@ Includes links to your Portfolio, Github and LinkedIn.
 
 **Repo and README**
     Link to live version.
-Instructions on how to play/use the project.
     List of techs/languages/plugins/APIs used.
     Technical implementation details with code snippets (make sure it looks good).
     To-dos/future features.

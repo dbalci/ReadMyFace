@@ -42,8 +42,6 @@ class Game {
             boxes[i].onclick = this.userClicked.bind(this)
         };
 
-     
-
         this.faceCounter = 0;
         this.rightFace = 0;
 
@@ -51,14 +49,9 @@ class Game {
             if (boxes[i].innerText === "😊") {
                 this.faceCounter += 1;
             };
-        };
-        console.log('right', this.rightFace);
-        console.log('faceco', this.faceCounter);
-
-
+        };        
     }
 
-    
     userClicked(e) {
         let box = e.target;
 
@@ -69,10 +62,7 @@ class Game {
         } else {
             $(box).css('background-color', 'red');
         }
-
-        console.log('right', this.rightFace);
-        console.log('faceco', this.faceCounter);
-
+        
         if(this.rightFace === this.faceCounter){
             clearInterval(this.interval);
             $('#timer').css('color', 'white')
@@ -83,8 +73,4 @@ class Game {
  
 let game = new Game()
 document.getElementById('start').onclick = game.start.bind(game);
-
-
-// tikladigin yuz gulen suratsa fonu yesile cevircek degilse kirmiziya cevircek
-//yeni class ver rigth ve wrong olsun ustune yesil box kirmizi box versin
-//userClicked yaptikca ulasmamiz gereken sayiya ulasinca timer dursun ve timer fonu beyaz olsun
+ 

@@ -22,6 +22,7 @@ class Game {
         this.time = 0;
         this.timer = document.getElementById("timer");
         this.timer.innerText = this.time + "s";
+        // faces = [😊, 😎, 🙄, 😘, 😑, 🤔, 😉, 🥺, 🤨]
     }
 
     start() {
@@ -33,11 +34,13 @@ class Game {
         }, 100)
 
         // flip cards open
-        $('.front').fadeIn();
-        $('.back').fadeOut();     
+        let boxes = document.querySelectorAll('.image')
+        for(let i=0; i<boxes.length; i++){
+            boxes[i].classList.add('show');
+            boxes[i].classList.remove('hide')
+        }
         
         // register click handlers for boxes
-        let boxes = document.getElementsByClassName("front")
         for (let i=0; i<boxes.length; i++) {
             boxes[i].onclick = this.userClicked.bind(this)
         };
@@ -57,15 +60,15 @@ class Game {
 
         //check if it is  right face
         if (box.innerText === "😊"){
-            $(box).css('background-color', 'green');
+            box.style.backgroundColor = 'green';
             this.rightFace+=1
         } else {
-            $(box).css('background-color', 'red');
+            box.style.backgroundColor = 'red';
         }
         
         if(this.rightFace === this.faceCounter){
             clearInterval(this.interval);
-            $('#timer').css('color', 'white')
+            document.getElementById('timer').style.color = 'white';
         };
     };
 

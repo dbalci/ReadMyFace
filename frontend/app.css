@@ -1,3 +1,4 @@
+
 /* whole page */
 #container{
     position: absolute;
@@ -7,6 +8,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+body{
+    font-family: Arial, Helvetica;
 }
 
 /* timer and start line */

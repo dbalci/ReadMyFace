@@ -13,7 +13,7 @@
 #game-controls{
     width: 500px;
     height: 30px;
-    background-color: rgb(67, 157, 231);
+    background-color: #75597d;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -26,16 +26,18 @@
 #start{
     width: 50px;
     height: 30px;
-    background-color: rgb(194, 41, 41);
+    background-color: #d4a2be;
+    /* background-color: rgb(194, 41, 41); */
     border-radius: 11px;
-    color: rgba(243, 240, 240, 0.945);
+    color: #f8e4dd;
+    /* color: rgba(243, 240, 240, 0.945); */
 }
 
 #grid-container{
     position: relative;
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #2196F3;
+    background-color: #75597d;
     grid-gap: 5px;
     padding: 10px;
     width: 500px;
@@ -43,10 +45,10 @@
 }
 
 .image-box{
-    border: 1px solid white;
+    border: 1px solid #f8e4dd;
     backface-visibility: hidden;
     overflow: hidden;
-    background: white;
+    background: #f8e4dd;
     text-align: center;
     font-size: 30px;
     justify-items: center;
@@ -55,13 +57,6 @@
     height: 100%;
     line-height: 160px;
 }
-/* 
-.image-box .front{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    line-height: 160px;
-} */
 
 .show{
     transition: opacity 400ms;

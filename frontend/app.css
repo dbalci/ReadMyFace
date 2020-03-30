@@ -32,10 +32,8 @@ body{
     width: 50px;
     height: 30px;
     background-color: #d4a2be;
-    /* background-color: rgb(194, 41, 41); */
     border-radius: 11px;
     color: #f8e4dd;
-    /* color: rgba(243, 240, 240, 0.945); */
 }
 
 #grid-container{
@@ -55,12 +53,15 @@ body{
     overflow: hidden;
     background: #f8e4dd;
     text-align: center;
-    font-size: 30px;
     justify-items: center;
     position: relative;
     width: 100%;
     height: 100%;
     line-height: 160px;
+}
+
+.image-box img{
+    width: 95%;
 }
 
 .show{
@@ -71,4 +72,15 @@ body{
 .hide{
     opacity: 0;
     transition: opacity 400ms;
+}
+
+footer{
+    color: gray;
+    text-decoration: none;
+    font-size: small;
+}
+
+footer a{
+    color: lightgray;
+    text-decoration: none;
 }

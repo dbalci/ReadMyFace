@@ -1,5 +1,5 @@
 # ReadMyFace
-Micro expression catcher app
+Facial expression catcher app
 
 
 <!-- **Live Project**
@@ -19,7 +19,7 @@ Micro expression catcher app
 
 
 ## Instructions on how to play/use the project
-* this is a micro expression game
+* this is a facial expression game
 * on the top there is going to be an emotion
 * cards going to turn for a brief second and close back
 * you are going to select which cards have the emotion we are looking for

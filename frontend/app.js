@@ -5,7 +5,7 @@ class Game {
         this.timer = document.getElementById("timer");
         this.timer.innerText = this.time + "s";
         this.happyFaces = ['h1.png', 'h2.png', 'h3.png', 'h4.png', 'h5.png', 'h6.png', 'h7.png', 'h8.png', 'h9.png', 'h10.png', 'h11.png', 'h12.png', 'h13.png'];
-        this.otherFaces = ['o1.png', 'o2.png', 'o3.png', 'o4.png', 'o5.png', 'o6.png', 'o7.png', 'o8.png', 'o9.png', 'o10.png', 'o11.png', 'o12.png', 'o13.png', 'o14.png', 'o15.png', 'o16.png', 'o17.png', 'o18.png', 'o19.png', 'o20.png', 'o21.png', 'o22.png', 'o23.png', 'o24.png', 'o25.png', 'o26.png'];
+        this.otherFaces = ['o1.png', 'o2.png', 'o3.png', 'o4.png', 'o5.png', 'o6.png', 'o7.png', 'o8.png', 'o9.png', 'o10.png', 'o11.png', 'o12.png', 'o13.png', 'o14.png', 'o15.png', 'o16.png', 'o17.png', 'o18.png', 'o19.png', 'o20.png', 'o21.png', 'o22.png', 'o23.png', 'o24.png', 'o26.png'];
     }
 
     shuffle(arr) {

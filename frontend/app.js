@@ -80,14 +80,15 @@ class Game {
         let img = e.target;
         let box = img.parentElement;
         let imgName = img.src.split('/').pop();
+        
         //check if it is  right face
-
         if (this.happyFaces.includes(imgName)){
             box.style.backgroundColor = 'rgb(80, 155, 97)';
             this.rightFace+=1
         } else {
             box.style.backgroundColor = 'rgb(206, 62, 51)';
         }
+        
         if(this.rightFace === this.faceCounter){
             clearInterval(this.interval);
             document.getElementById('timer').style.color = 'white';

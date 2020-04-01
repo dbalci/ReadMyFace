@@ -13,6 +13,17 @@ This is a facial expression game
 This project made by using JavaScript, HTML and CSS. 
 Used pure DOM API to implamnet the game logic. No database or backend service used because images are served statically. 
 
+Each image had ~2.5MB size. For resizing after going in the file images in 
+```
+sips -Z 165 *.png
+```
+command line used. (165 is the image box dimention.)
+
+
+Opening page will be close image boxes and timer at 0s.
+
+![Opening Page](readme_images/opening.png)
+
 
 For checking if user cliked right image box or not this function is used in Game class. 
 
@@ -31,3 +42,20 @@ For checking if user cliked right image box or not this function is used in Game
         };
     };
 ```
+
+After faces revaled user can click their answers.
+
+![Before answers](readme_images/before_click.png)
+
+After finding all right answers timer will stop. Wrong faces going to have red backgroung.
+
+![After answers](readme_images/after_click.png)
+
+
+
+### TO DO List for future;
+
+* Start button css
+* backgorund color for whole page
+* timer color css
+* game panel css 

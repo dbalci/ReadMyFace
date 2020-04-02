@@ -91,7 +91,7 @@ class Game {
         
         if(this.rightFace === this.faceCounter){
             clearInterval(this.interval);
-            document.getElementById('timer').style.color = 'white';
+            document.getElementById('timer').style.color = '#f8e4dd';
             document.getElementById('timer').style.fontSize = '200%';
         };
     };

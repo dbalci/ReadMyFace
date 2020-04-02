@@ -11,6 +11,7 @@
 }
 
 body{
+    background-color: #f3e4de;
     font-family: Arial, Helvetica;
 }
 
@@ -29,6 +30,8 @@ body{
     align-items: center;
     justify-items: center;
     flex-direction: column;
+    color: #423c3a;
+
 }
 
 /* timer and start line */
@@ -39,6 +42,7 @@ body{
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    color: #f8e4dd;
 }
 
 #timer{
@@ -46,8 +50,9 @@ body{
 }
 
 #start{
-    width: 50px;
-    height: 30px;
+    width: 65px;
+    height: 31px;
+    font-size: 16px;
     background-color: #d4a2be;
     border-radius: 11px;
     color: #f8e4dd;
@@ -89,13 +94,13 @@ body{
 }
 
 footer{
-    color: gray;
+    color: #423c3a;
     text-decoration: none;
     font-size: small;
 }
 
 footer a{
-    color: lightgray;
+    color: #968a87;
     text-decoration: none;
 }
 

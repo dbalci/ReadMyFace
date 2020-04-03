@@ -50,12 +50,3 @@ After faces revaled user can click their answers.
 After finding all right answers timer will stop. Wrong faces going to have red backgroung.
 
 ![After answers](readme_images/after_click.png)
-
-
-
-### TO DO List for future;
-
-* Start button css
-* backgorund color for whole page
-* timer color css
-* game panel css 

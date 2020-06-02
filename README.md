@@ -1,5 +1,5 @@
 # ReadMyFace
-Here is live link: [ReadMyFace](https://readface.herokuapp.com/)
+Here is live link: [ReadMyFace](http://dilanbalci.com/ReadMyFace/)
 
 ## How to play?
 This is a facial expression game

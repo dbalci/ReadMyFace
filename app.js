@@ -34,7 +34,7 @@ class Game {
         let boxes = document.querySelectorAll('.image');
         for(let i=0; i<boxes.length; i++){
             let imgEl = document.createElement('img');
-            imgEl.src = '/faces/' + randomFaces[i];
+            imgEl.src = './faces/' + randomFaces[i];
             boxes[i].innerHTML = '';
             boxes[i].style.backgroundColor = '#f8e4dd';
             boxes[i].appendChild(imgEl);
